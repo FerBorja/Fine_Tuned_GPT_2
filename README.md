@@ -61,7 +61,7 @@ Fine-tune GPT-2 using LoRA (Low-Rank Adaptation) to generate high-quality, domai
 | Top-K               | Diversity       | 50            |
 | Repetition Penalty  | Avoid loops     | 1.2           |
 
-### Output Generated
+## Output Generated
 
 <p align="center">
   <img src="results/result.png" width="800" alt="Text generation flow">
