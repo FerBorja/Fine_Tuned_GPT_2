@@ -64,5 +64,5 @@ Fine-tune GPT-2 using LoRA (Low-Rank Adaptation) to generate high-quality, domai
 ### Output Generated
 
 <p align="center">
-  <img src="result.png" width="800" alt="Text generation flow">
+  <img src="results/result.png" width="800" alt="Text generation flow">
 </p>
