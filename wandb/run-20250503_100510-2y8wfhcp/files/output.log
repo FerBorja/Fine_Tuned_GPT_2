@@ -1,0 +1,5 @@
+  0%|                                                                                                                                                                                     | 0/203 [00:00<?, ?it/s]`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 203/203 [00:10<00:00, 19.80it/s]
+{'train_runtime': 13.5432, 'train_samples_per_second': 29.978, 'train_steps_per_second': 14.989, 'train_loss': 4.013282813462131, 'epoch': 1.0}
+
+GIF generado en: ./gpt2-finetuned-lora\training_parameters.gif

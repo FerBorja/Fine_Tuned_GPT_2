@@ -1,0 +1,43 @@
+  0%|                                                                                                                                                                                     | 0/537 [00:00<?, ?it/s]`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 537/537 [00:33<00:00, 15.95it/s]
+{'loss': 4.2945, 'grad_norm': 1.0746378898620605, 'learning_rate': 2.45e-05, 'epoch': 0.28}
+{'loss': 4.1071, 'grad_norm': 1.5577036142349243, 'learning_rate': 4.9500000000000004e-05, 'epoch': 0.56}
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 45/45 [00:00<00:00, 45.30it/s]
+{'eval_loss': 3.857200860977173, 'eval_runtime': 0.9373, 'eval_samples_per_second': 190.966, 'eval_steps_per_second': 48.008, 'epoch': 0.56}
+{'loss': 3.9883, 'grad_norm': 1.9675395488739014, 'learning_rate': 4.439359267734554e-05, 'epoch': 0.84}
+{'loss': 3.8509, 'grad_norm': 1.9242433309555054, 'learning_rate': 3.867276887871854e-05, 'epoch': 1.12}
+{'eval_loss': 3.7253663539886475, 'eval_runtime': 0.9421, 'eval_samples_per_second': 189.992, 'eval_steps_per_second': 47.763, 'epoch': 1.12}
+{'loss': 3.8607, 'grad_norm': 1.6864049434661865, 'learning_rate': 3.2951945080091534e-05, 'epoch': 1.4}
+{'loss': 3.7852, 'grad_norm': 1.9306377172470093, 'learning_rate': 2.7345537757437074e-05, 'epoch': 1.68}
+{'eval_loss': 3.666672468185425, 'eval_runtime': 1.0052, 'eval_samples_per_second': 178.077, 'eval_steps_per_second': 44.768, 'epoch': 1.68}
+{'loss': 3.7173, 'grad_norm': 2.3102197647094727, 'learning_rate': 2.162471395881007e-05, 'epoch': 1.96}
+{'loss': 3.7793, 'grad_norm': 2.3638064861297607, 'learning_rate': 1.5903890160183066e-05, 'epoch': 2.23}
+{'eval_loss': 3.6303117275238037, 'eval_runtime': 0.9952, 'eval_samples_per_second': 179.861, 'eval_steps_per_second': 45.217, 'epoch': 2.23}
+{'loss': 3.7281, 'grad_norm': 2.152179479598999, 'learning_rate': 1.0183066361556065e-05, 'epoch': 2.51}
+{'loss': 3.6972, 'grad_norm': 2.2112863063812256, 'learning_rate': 4.462242562929062e-06, 'epoch': 2.79}
+{'eval_loss': 3.6193394660949707, 'eval_runtime': 0.9702, 'eval_samples_per_second': 184.499, 'eval_steps_per_second': 46.382, 'epoch': 2.79}
+{'train_runtime': 34.7522, 'train_samples_per_second': 61.636, 'train_steps_per_second': 15.452, 'train_loss': 3.871312601384282, 'epoch': 3.0}
+
+=== Evaluando modelo ===
+
+Resultados de evaluación:
+- Pérdida de validación: 3.6180
+- Tiempo por evaluación: 1.01s
+- Samples por segundo: 178.00
+
+=== Ejemplo de generación ===
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Prompt: 'El tratamiento para la diabetes incluye'
+Generado: 'El tratamiento para la diabetes incluye el a las cualpia y el aicio de la formula de los niños para el enfantos , a la pueblo y los niños pero de los niños de las tías ( the same as the one used in the previous article ). The use of the word "inferior" refers to how the body is constructed and does not relate to its role as a body'
+
+Guardando modelo...
+Modelo guardado en: ./mi_modelo_finetuneado
+
+=== Ejemplo de carga del modelo ===
+¡Modelo cargado correctamente!
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+
+Prompt: 'La inteligencia artificial es'
+Generado (modelo cargado): 'La inteligencia artificial español de lo que una hacia de Ángel se puede la casa de que se lugar Ángel del puede de la nueva de los los Ángeles ; llegado de este más gente la consejo y a lo que se gente y a un silla de la casa de los Ángeles .
+
+Siempre tres del'

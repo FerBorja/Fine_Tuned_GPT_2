@@ -1,0 +1,15 @@
+{"time":"2025-05-02T12:00:33.1278102-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"C:\\Users\\lfcb1\\Desktop\\FineTunning\\wandb\\run-20250502_120033-a7cd1uxh\\logs\\debug-core.log"}
+{"time":"2025-05-02T12:00:33.3704443-06:00","level":"INFO","msg":"created new stream","id":"a7cd1uxh"}
+{"time":"2025-05-02T12:00:33.3704443-06:00","level":"INFO","msg":"stream: started","id":"a7cd1uxh"}
+{"time":"2025-05-02T12:00:33.3712661-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"a7cd1uxh"}
+{"time":"2025-05-02T12:00:33.3712661-06:00","level":"INFO","msg":"handler: started","stream_id":"a7cd1uxh"}
+{"time":"2025-05-02T12:00:33.3712661-06:00","level":"INFO","msg":"sender: started","stream_id":"a7cd1uxh"}
+{"time":"2025-05-02T12:00:33.678056-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-02T12:00:45.77184-06:00","level":"INFO","msg":"stream: closing","id":"a7cd1uxh"}
+{"time":"2025-05-02T12:00:45.77184-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-02T12:00:45.77184-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-02T12:00:46.5830114-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-02T12:00:46.8839575-06:00","level":"INFO","msg":"handler: closed","stream_id":"a7cd1uxh"}
+{"time":"2025-05-02T12:00:46.8839575-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"a7cd1uxh"}
+{"time":"2025-05-02T12:00:46.8839575-06:00","level":"INFO","msg":"sender: closed","stream_id":"a7cd1uxh"}
+{"time":"2025-05-02T12:00:46.8839575-06:00","level":"INFO","msg":"stream: closed","id":"a7cd1uxh"}

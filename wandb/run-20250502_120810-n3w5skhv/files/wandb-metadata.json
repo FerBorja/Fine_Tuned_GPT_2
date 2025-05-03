@@ -1,0 +1,38 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.11.6",
+  "startedAt": "2025-05-02T18:08:10.196936Z",
+  "program": "C:\\Users\\lfcb1\\Desktop\\FineTunning\\finetunningllm.py",
+  "codePath": "finetunningllm.py",
+  "email": "luisfernandocasasborja@gmail.com",
+  "root": "C:\\Users\\lfcb1\\Desktop\\FineTunning",
+  "host": "AsusFer",
+  "executable": "C:\\Users\\lfcb1\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "codePathLocal": "finetunningllm.py",
+  "cpu_count": 14,
+  "cpu_count_logical": 20,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "947026653184",
+      "used": "363834245120"
+    }
+  },
+  "memory": {
+    "total": "68320157696"
+  },
+  "cpu": {
+    "count": 14,
+    "countLogical": 20
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "memoryTotal": "8585740288",
+      "cudaCores": 3072,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.8"
+}

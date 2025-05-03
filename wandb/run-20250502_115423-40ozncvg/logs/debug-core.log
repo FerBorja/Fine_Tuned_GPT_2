@@ -1,0 +1,13 @@
+{"time":"2025-05-02T11:54:23.0628107-06:00","level":"INFO","msg":"main: starting server","port-filename":"C:\\Users\\lfcb1\\AppData\\Local\\Temp\\tmp_anug0ze\\port-30372.txt","pid":30372,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-02T11:54:23.0648621-06:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":30372}
+{"time":"2025-05-02T11:54:23.0648621-06:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":55626,"Zone":""}}
+{"time":"2025-05-02T11:54:23.2498035-06:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:55627"}
+{"time":"2025-05-02T11:54:23.5421482-06:00","level":"INFO","msg":"handleInformInit: received","streamId":"40ozncvg","id":"127.0.0.1:55627"}
+{"time":"2025-05-02T11:54:23.7910105-06:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"40ozncvg","id":"127.0.0.1:55627"}
+{"time":"2025-05-02T11:54:25.4092947-06:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:55627"}
+{"time":"2025-05-02T11:54:25.4092947-06:00","level":"INFO","msg":"connection: closing","id":"127.0.0.1:55627"}
+{"time":"2025-05-02T11:54:25.4092947-06:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-05-02T11:54:25.4092947-06:00","level":"INFO","msg":"connection: closed successfully","id":"127.0.0.1:55627"}
+{"time":"2025-05-02T11:54:26.4740795-06:00","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:55627"}
+{"time":"2025-05-02T11:54:26.4740795-06:00","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:55627"}
+{"time":"2025-05-02T11:54:26.4740795-06:00","level":"INFO","msg":"server is closed"}

@@ -1,0 +1,15 @@
+{"time":"2025-05-02T11:52:19.5376305-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"C:\\Users\\lfcb1\\Desktop\\FineTunning\\wandb\\run-20250502_115219-rimd5gef\\logs\\debug-core.log"}
+{"time":"2025-05-02T11:52:20.0715635-06:00","level":"INFO","msg":"created new stream","id":"rimd5gef"}
+{"time":"2025-05-02T11:52:20.0720915-06:00","level":"INFO","msg":"stream: started","id":"rimd5gef"}
+{"time":"2025-05-02T11:52:20.0720915-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"rimd5gef"}
+{"time":"2025-05-02T11:52:20.0720915-06:00","level":"INFO","msg":"sender: started","stream_id":"rimd5gef"}
+{"time":"2025-05-02T11:52:20.0720915-06:00","level":"INFO","msg":"handler: started","stream_id":"rimd5gef"}
+{"time":"2025-05-02T11:52:20.5250093-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-02T11:52:21.7732787-06:00","level":"INFO","msg":"stream: closing","id":"rimd5gef"}
+{"time":"2025-05-02T11:52:21.7732787-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-02T11:52:21.7732787-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-02T11:52:22.3623869-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-02T11:52:22.7649655-06:00","level":"INFO","msg":"handler: closed","stream_id":"rimd5gef"}
+{"time":"2025-05-02T11:52:22.7649655-06:00","level":"INFO","msg":"sender: closed","stream_id":"rimd5gef"}
+{"time":"2025-05-02T11:52:22.7649655-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rimd5gef"}
+{"time":"2025-05-02T11:52:22.7649655-06:00","level":"INFO","msg":"stream: closed","id":"rimd5gef"}

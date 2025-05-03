@@ -1,0 +1,13 @@
+{"time":"2025-05-02T11:51:58.8457089-06:00","level":"INFO","msg":"main: starting server","port-filename":"C:\\Users\\lfcb1\\AppData\\Local\\Temp\\tmp_ru9gd48\\port-3688.txt","pid":3688,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-02T11:51:58.8473464-06:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":3688}
+{"time":"2025-05-02T11:51:58.8473464-06:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":55539,"Zone":""}}
+{"time":"2025-05-02T11:51:59.0311163-06:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:55540"}
+{"time":"2025-05-02T11:52:19.5370257-06:00","level":"INFO","msg":"handleInformInit: received","streamId":"rimd5gef","id":"127.0.0.1:55540"}
+{"time":"2025-05-02T11:52:20.0720915-06:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"rimd5gef","id":"127.0.0.1:55540"}
+{"time":"2025-05-02T11:52:21.7732787-06:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:55540"}
+{"time":"2025-05-02T11:52:21.7732787-06:00","level":"INFO","msg":"connection: closing","id":"127.0.0.1:55540"}
+{"time":"2025-05-02T11:52:21.7732787-06:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-05-02T11:52:21.7732787-06:00","level":"INFO","msg":"connection: closed successfully","id":"127.0.0.1:55540"}
+{"time":"2025-05-02T11:52:22.7682655-06:00","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:55540"}
+{"time":"2025-05-02T11:52:22.7682655-06:00","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:55540"}
+{"time":"2025-05-02T11:52:22.7682655-06:00","level":"INFO","msg":"server is closed"}

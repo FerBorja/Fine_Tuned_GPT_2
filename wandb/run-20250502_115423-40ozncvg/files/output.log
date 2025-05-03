@@ -1,0 +1,56 @@
+  0%|                                                                                                                                                                                     | 0/500 [00:00<?, ?it/s]`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+  1%|██▍                                                                                                                                                                          | 7/500 [00:00<00:38, 12.96it/s]Traceback (most recent call last):
+  File "C:\Users\lfcb1\Desktop\FineTunning\finetunningllm.py", line 66, in <module>
+    trainer.train()
+  File "C:\Users\lfcb1\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\trainer.py", line 2245, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lfcb1\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\trainer.py", line 2560, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lfcb1\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\trainer.py", line 3736, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lfcb1\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\trainer.py", line 3801, in compute_loss
+    outputs = model(**inputs)
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\lfcb1\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lfcb1\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lfcb1\AppData\Local\Programs\Python\Python311\Lib\site-packages\accelerate\utils\operations.py", line 814, in forward
+    return model_forward(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lfcb1\AppData\Local\Programs\Python\Python311\Lib\site-packages\accelerate\utils\operations.py", line 802, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lfcb1\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\amp\autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lfcb1\AppData\Local\Programs\Python\Python311\Lib\site-packages\peft\peft_model.py", line 1757, in forward
+    return self.base_model(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\lfcb1\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lfcb1\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lfcb1\AppData\Local\Programs\Python\Python311\Lib\site-packages\peft\tuners\tuners_utils.py", line 193, in forward
+    return self.model.forward(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lfcb1\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\models\gpt2\modeling_gpt2.py", line 1062, in forward
+    transformer_outputs = self.transformer(
+                          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lfcb1\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lfcb1\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lfcb1\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\models\gpt2\modeling_gpt2.py", line 796, in forward
+    input_ids = input_ids.view(-1, input_shape[-1])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: cannot reshape tensor of 0 elements into shape [-1, 0] because the unspecified dimension size -1 can be any value and is ambiguous
